@@ -1,1 +1,4 @@
-# gem 'coveralls', require: false
+source 'https://rubygems.org'
+
+gem 'xcpretty'
+gem 'xcpretty-json-formatter'
