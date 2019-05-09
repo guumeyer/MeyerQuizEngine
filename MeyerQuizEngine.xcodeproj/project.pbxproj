@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B5B14BE2283F6AD00891539 /* MeyerQuizEngine_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5B14B42283F6AD00891539 /* MeyerQuizEngine_macOS.framework */; };
+		2B5B14BE2283F6AD00891539 /* MeyerQuizEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5B14B42283F6AD00891539 /* MeyerQuizEngine.framework */; };
 		2B5B14C52283F6AD00891539 /* MeyerQuizEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5B14B72283F6AD00891539 /* MeyerQuizEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B5B14D12283F7A100891539 /* Flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B14D02283F7A100891539 /* Flow.swift */; };
 		2B5B14D32283F87200891539 /* FlowTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B14CE2283F6E600891539 /* FlowTest.swift */; };
@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B5B14B42283F6AD00891539 /* MeyerQuizEngine_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeyerQuizEngine_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5B14B42283F6AD00891539 /* MeyerQuizEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeyerQuizEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5B14B72283F6AD00891539 /* MeyerQuizEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeyerQuizEngine.h; sourceTree = "<group>"; };
 		2B5B14B82283F6AD00891539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B5B14BD2283F6AD00891539 /* MeyerQuizEngineTests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MeyerQuizEngineTests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B5B14BE2283F6AD00891539 /* MeyerQuizEngine_macOS.framework in Frameworks */,
+				2B5B14BE2283F6AD00891539 /* MeyerQuizEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +64,7 @@
 		2B5B14B52283F6AD00891539 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B5B14B42283F6AD00891539 /* MeyerQuizEngine_macOS.framework */,
+				2B5B14B42283F6AD00891539 /* MeyerQuizEngine.framework */,
 				2B5B14BD2283F6AD00891539 /* MeyerQuizEngineTests macOS.xctest */,
 			);
 			name = Products;
@@ -119,7 +119,7 @@
 			);
 			name = "MeyerQuizEngine macOS";
 			productName = MeyerQuizEngine;
-			productReference = 2B5B14B42283F6AD00891539 /* MeyerQuizEngine_macOS.framework */;
+			productReference = 2B5B14B42283F6AD00891539 /* MeyerQuizEngine.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2B5B14BC2283F6AD00891539 /* MeyerQuizEngineTests macOS */ = {
@@ -386,7 +386,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.meyer.MeyerQuizEngine;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = MeyerQuizEngine;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -416,7 +416,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.meyer.MeyerQuizEngine;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = MeyerQuizEngine;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
